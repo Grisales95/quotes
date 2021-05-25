@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Newsreader", serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.title{
+  margin-top: 50px;
+}
+.quotes {
+  background: #fff;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.quotes p {
+  margin-top: 15px;
+  text-align: end;
+  font-weight: 400;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-button button {
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.container-button i {
+  font-size: 1.3rem;
+}
+
+@media (max-width:600px){
+  .quotes{
+    width: 90%;
+  }
+}
